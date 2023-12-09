@@ -30,12 +30,22 @@ a:active{
 a:visited{
 	color:black;
 }
+
 .container{
 	width:80%;
 	margin:auto;
 }
-.box-1{
+
+.button{
 	background-color:#333;
+	color:white;
+	padding:10px 15px;
+	border:none;
+	margin:15px;
+}
+
+.box-1{
+	background-color:#0a4a72;
 	color:#fff;
 
 	border-right:30px red solid;
@@ -90,3 +100,29 @@ a:visited{
 	padding-bottom:6px;
 	border-bottom:dotted 1px #333;
 }
+
+.my-form{
+	padding-bottom:20px;
+}
+
+.my-form.form-group{
+	padding-bottom:15px;
+}
+
+.my-form label{
+	display:block;
+}
+
+.my-form input[type="text"], .my-form textarea, .my-form input[type="email"] {
+	padding:8px;
+	width:100%;
+}
+
+.block{
+	float:left;
+	width:33%;
+	border:1px solid black;
+	padding:10px;
+	box-sizing:border-box;
+}
+
