@@ -1,3 +1,9 @@
+/*
+*{
+	margin:0;
+	padding:0;
+}
+*/
 body{
 	background-color:#f4f4f4;
 	color:#555555;
@@ -7,6 +13,23 @@ body{
 	line-height:1.5em;
 	margin:0;
 }
+
+a{
+	text-decoration:none;
+	color:#000;
+}
+
+a:hover{
+	color:red;
+}
+
+a:active{
+	color:rgb(41, 2, 51);
+}
+
+a:visited{
+	color:black;
+}
 .container{
 	width:80%;
 	margin:auto;
@@ -14,4 +37,56 @@ body{
 .box-1{
 	background-color:#333;
 	color:#fff;
+
+	border-right:30px red solid;
+	border-left:5px blue solid;
+	border-top:10px green solid;
+	border-bottom:10px coral solid;
+	/*solid or dotted*/
+
+	padding-top:15px;
+	padding-bottom:15px;
+	padding-right:30px;
+	padding-left:30px;
+
+	margin:20px;
+
+
+}
+
+.box-1 h1{
+	font-family: Tahoma; 
+	font-weight:800; 
+	font-style:italic; 
+	text-decoration:underline; 
+	text-transform:uppercase;
+	letter-spacing:0.2em;
+	word-spacing:1em;
+}
+
+.box-2{
+	border:10px dotted #ccc;
+	padding:20px;
+	margin:20px;
+}
+
+.categories{
+	border:1px dotted black;
+	padding:10px;
+	border-radius:15px;
+	margin:20px;
+}
+
+.categories h2{
+	text-align:center;
+}
+
+.categories ul{
+	padding:0px;
+	list-style:none;
+}
+
+.categories li{
+	padding-bottom:6px;
+	border-bottom:dotted 1px #333;
 }
