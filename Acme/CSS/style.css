@@ -72,3 +72,38 @@ header a:hover{
     line-height:1.5em;
     font-weight:bold;
 }
+#newsletter{
+    min-height:80px;
+    background-color:#32325f;
+}
+#newsletter h1{
+    float:left;
+    padding-top:10px;
+    color:white;
+}
+#newsletter form{
+    float:right;
+    margin-top:20px;
+    margin-bottom:10px;
+}
+#newsletter form input{
+    font-size:20px;
+    padding:5px 10px;
+}
+#newsletter form button{
+    font-size:20px;
+    padding:5px 10px;
+    border:none;
+    background-color: orangered;
+    color:white;
+}
+footer{
+    background-color: #32325f;
+    color:white;
+}
+footer p{
+    text-align:center;
+    font-size:15px;
+    padding:25px;
+    margin:0;
+}
