@@ -2,31 +2,37 @@
 <html>
 <head>
     <title>Acme Web Services</title>
+    <link rel="stylesheet" href="CSS/style.css">
 </head>
 <body>
-    <div class="container"><!--container starts-->
-        <header class="hf-box"><!--header-footer-->
-            <h1>Acme Web Design</h1>
-        </header><!--hf-box ends here-->
+    <header id="main-header">
+        <div class="container"><!--header-footer-->
+        <h1>Acme Web Design</h1>
+        </div>
+    </header>
         <nav id="navbar">
+            <div class="container">
             <ul>
                 <li><a href="">Home</a></li>
                 <li><a href="">About</a></li>
                 <li><a href="">Services</a></li>
             </ul>
-        </nav><!--navbar ends-->   
-        <div class="intro"><!--introduction box-->
+            </div>
+        </nav><!--navbar ends-->  
+        <section id="intro"><!--introduction box-->
+        <div class="container">
         <h1>Affordable Professional Websites</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, natus impedit odio vitae id deserunt accusantium minus odit incidunt provident!</p>
         </div><!--intro ends here-->
+        </section>
         <div class="newsletter"><!--newsletter box-->
-            <h1>Subscribe to our newsletter</h1>
+            <h1 id="subs">Subscribe to our newsletter</h1>
             <form id="sub-form"><!--subscription-->
                 <input type="email" name="email" value="Enter your Email">
                 <label class="button"><a href="">Subscribe</a></label>
             </form><!--subscription box ends-->
         </div><!--newsletter ends here-->
-        <div class="features-box"><!--3 logos-->
+        <div class="container"><!--3 logos-->
             <section id="html">
                 <h1>HTML5 Markup</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In odit quia optio, nulla placeat sit.</p>
@@ -40,9 +46,8 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus laboriosam cum commodi consequuntur delectus dignissimos.</p>
             </section>
         </div><!--features ends-->
-        <footer class="hf-box"><!--footer box-->
+        <footer id="f-box"><!--footer box-->
             <p>Copyright &copy 2023 Acme Web Design</p>
         </footer><!--footer box ends-->
-    </div><!--container ends here-->
 </body>
 </html>
