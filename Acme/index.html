@@ -5,49 +5,57 @@
     <link rel="stylesheet" href="CSS/style.css">
 </head>
 <body>
-    <header id="main-header">
-        <div class="container"><!--header-footer-->
-        <h1>Acme Web Design</h1>
-        </div>
-    </header>
-        <nav id="navbar">
-            <div class="container">
-            <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">Services</a></li>
-            </ul>
-            </div>
-        </nav><!--navbar ends-->  
-        <section id="intro"><!--introduction box-->
+    <header>
         <div class="container">
-        <h1>Affordable Professional Websites</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, natus impedit odio vitae id deserunt accusantium minus odit incidunt provident!</p>
-        </div><!--intro ends here-->
+            <div id="branding">  
+                <h1><span class=highlight>Acme</span> Web Design</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li class="current"><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Services</a></li>
+                </ul>
+            </nav><!--navbar ends-->
+        </div>
+    </header>  
+    <section id="showcase">
+        <div class="container">
+            <h1>Affordable Professional Websites</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, natus impedit odio vitae id deserunt accusantium minus odit incidunt provident!</p>
+        </div>
+    </section>
+    <section id="newsletter">
+        <div class="container">
+            <h1>Subscribe to our newsletter</h1>
+            <form>
+                <input type="email" placeholder="Enter email">
+                <button type="submit" class="button-1">Subscribe</button>
+            </form>
+        </div>
+    </section>
+        <section id="boxes"><!--3 logos-->
+            <div class="container">
+                <div class="box">
+                    <img src="./Images/html.png">
+                    <h1>HTML5 Markup</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In odit quia optio, nulla placeat sit.</p>
+                </div>
+                <div class="box">
+                    <img src="./Images/css.png">
+                    <h1>CSS Styling</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum dignissimos neque blanditiis, optio fugit aspernatur.</p>
+                </div>
+                <div class="box">
+                    <img src="./Images/brush.png">
+                    <h1>Graphic Design</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus laboriosam cum commodi consequuntur delectus dignissimos.</p>
+                </div>
+            </div>
         </section>
-        <div class="newsletter"><!--newsletter box-->
-            <h1 id="subs">Subscribe to our newsletter</h1>
-            <form id="sub-form"><!--subscription-->
-                <input type="email" name="email" value="Enter your Email">
-                <label class="button"><a href="">Subscribe</a></label>
-            </form><!--subscription box ends-->
-        </div><!--newsletter ends here-->
-        <div class="container"><!--3 logos-->
-            <section id="html">
-                <h1>HTML5 Markup</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In odit quia optio, nulla placeat sit.</p>
-            </section>
-            <section id="css">
-                <h1>CSS Styling</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum dignissimos neque blanditiis, optio fugit aspernatur.</p>
-            </section>
-            <section id="graphic">
-                <h1>Graphic Design</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus laboriosam cum commodi consequuntur delectus dignissimos.</p>
-            </section>
-        </div><!--features ends-->
-        <footer id="f-box"><!--footer box-->
-            <p>Copyright &copy 2023 Acme Web Design</p>
-        </footer><!--footer box ends-->
+
+        <footer>
+            <p>Copyright &copy; 2023 Acme Web Design</p>
+        </footer>
 </body>
 </html>
