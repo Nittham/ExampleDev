@@ -152,7 +152,7 @@ footer p{
     
 }
 @media(max-width:768px){
-    header #branding, header nav, header nav li, #newsletter h1, #newsletter form, article#main-col, aside#sidebar, .quote #boxes .box{
+    header #branding, header nav, header nav li, #newsletter h1, #newsletter form, article#main-col, aside#sidebar, .quote #boxes .box,  #boxes .box{
         float:none;
         text-align:center;
         width:100%;
