@@ -13,9 +13,10 @@ body{
     background-color: lightgray;
     /* justify-content:start; */
     /* align-items:center; */
+    /* flex-wrap:wrap; */
 }
 .item{
-    width:100px;
+    flex-basis:100px;
     height:100px;
     background-color: #254de4;
     margin:10px;
@@ -24,6 +25,16 @@ body{
     justify-content:center;
     align-items:center;
 }
+.item:nth-of-type(1){
+    order:1;
+}
 .item:nth-of-type(2){
-    
+    flex-basis:1000px;
+    flex-shrink:2;
+}
+.item:nth-of-type(3){
+    order:3;
+}
+.item:nth-of-type(4){
+    order:-1;
 }
