@@ -1,0 +1,33 @@
+.container{
+    margin: auto;
+    margin-top:20px;
+    width:70%;
+    border:25px #b9b1b1 solid;
+    border-radius:5px;
+}
+#main-header{
+    background-color: #db5353;
+    color:white;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 25px;
+    padding:10px;
+}
+.my-form{
+    text-align:center;       
+}
+input{
+    margin:10px;
+    width:80%;
+    font-size: 20px;
+    padding:5px;
+    border-style:inset;
+}
+#button{
+    width:45%;
+    margin:auto;
+}
+input[type=submit]{
+    background-color: #db5353;
+}
