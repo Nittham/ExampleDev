@@ -1,13 +1,18 @@
-console.log('Hello world');
-console.error('This is an error');
-console.warn('This is a warning');
+//datatypes
+const name='Deerendra'; //String
+const year=19; //number
+const rating=4.5; // is also just a number
+const boolean=true;
+const x=null; //null
+const y= undefined; //can assign undefined
+let z; // also undefined
 
-//var, let, const --- variables; var not used;
+console.log(typeof z);
 
-let age=19;
-console.log(age);
-age=20;
-console.log(age);
-const mark=90;
-mark=90; //causes error
+//concatenation
 
+console.log('My name is '+ name + ' and I am '+ year);
+
+//template string
+
+console.log(`My name is ${name}`); //use backtick instead of quotations
