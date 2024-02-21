@@ -1,0 +1,21 @@
+{
+  "name": "node-cc",
+  "version": "1.0.0",
+  "description": "Node Crash Course",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "webdev"
+  },
+  "author": "Deerendra",
+  "license": "ISC",
+  "dependencies": {
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
