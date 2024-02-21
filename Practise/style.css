@@ -16,6 +16,9 @@ a:hover{
     cursor: pointer;
 }
 
+ul{
+    list-style: none;
+}
 
 .header{
     background: black;
@@ -110,3 +113,12 @@ a:hover{
     border: black solid 3px;
     margin: 10px;
 }
+
+.footer{
+    border-top: black 2px solid;
+}
+
+.f-content{
+    margin: 20px;
+}
+
